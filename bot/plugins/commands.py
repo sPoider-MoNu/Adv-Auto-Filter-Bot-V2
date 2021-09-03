@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"{file_name} \n🚫 <s>saynotopiracy</s>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'join group⚡️', url="https://t.me/joinchat/9BpwTJI7G-04NGNl"
                                 )
                         ]
                     ]
@@ -47,10 +47,9 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('join here 🚫', url='https://t.me/joinchat/9BpwTJI7G-04NGNl'),
+        
+
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
