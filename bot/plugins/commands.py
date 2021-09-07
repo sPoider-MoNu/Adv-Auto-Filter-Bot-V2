@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n🚫 <s>saynotopiracy</s>",
+                caption = f"{file_name} \n🚫 <s>Spread Nanma 😘</s>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'join group⚡️', url="https://t.me/joinchat/P-StzD-mkMcyMTI1"
+                                    'join group⚡️', url="https://t.me/joinchat/9BpwTJI7G-04NGNl"
                                 )
                         ]
                     ]
@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('join here 🚫', url='https://t.me/joinchat/P-StzD-mkMcyMTI1'),
+        InlineKeyboardButton('join here 🌋', url='https://t.me/joinchat/9BpwTJI7G-04NGNl'),
         
 
     ],[
