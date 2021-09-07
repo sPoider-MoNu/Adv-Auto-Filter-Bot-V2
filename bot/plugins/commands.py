@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'join group⚡️', url="https://t.me/joinchat/9BpwTJI7G-04NGNl"
+                                    'join group⚡️', url="https://t.me/joinchat/P-StzD-mkMcyMTI1"
                                 )
                         ]
                     ]
@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('join here 🚫', url='https://t.me/joinchat/9BpwTJI7G-04NGNl'),
+        InlineKeyboardButton('join here 🚫', url='https://t.me/joinchat/P-StzD-mkMcyMTI1'),
         
 
     ],[
